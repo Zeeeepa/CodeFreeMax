@@ -1,0 +1,24 @@
+# https://goframe.org/docs/web/server-config-file-template
+server:
+  address: ":8000"
+  # openapiPath: "/api.json"
+  # swaggerPath: "/swagger"
+
+# https://goframe.org/docs/core/glog-config
+logger:
+  level: "all"
+  stdout: true
+
+# https://goframe.org/docs/core/gdb-config-file
+database:
+  default:
+    type: "sqlite"
+    link: "sqlite:./data/kiro.db"
+
+# Kiro API 配置
+kiro:
+  apiTarget: "https://q.us-east-1.amazonaws.com"
+  authTarget: "https://prod.us-east-1.auth.desktop.kiro.dev"
+  version: "0.8.0"
+  userAgent: "aws-sdk-js/1.0.27 ua/2.1 os/darwin#25.3.0 lang/js md/nodejs#22.21.1 api/codewhispererstreaming#1.0.27 m/E"
+
