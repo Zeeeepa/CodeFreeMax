@@ -71,8 +71,8 @@
 ### 1. 下载部署文件
 
 ```bash
-git clone https://github.com/ssmDo/kiro2api.git
-cd kiro2api/
+git clone https://github.com/ssmDo/CodeFreeMax.git
+cd CodeFreeMax/
 ```
 
 ### 2. 一键部署
