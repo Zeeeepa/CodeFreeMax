@@ -2,10 +2,21 @@
 
 🚀 将 Kiro、Antigravity、Warp、Orchids 等 IDE 转换为兼容 OpenAI/Claude/Augment Code 格式的 API 服务。
 
-## 🎉 V2.2.0 更新说明
+## 🎉 V2.3.0 更新说明
 
 > ⚠️ **重要提示**:
 > 1. 公共授权码：`144bd7a0-6ca2-4b7e-ac1c-1a29afb50662`
+> 2. 更新到 V2.3.0 版本，AugmentCode 插件需要更新到 **v3.0.0**！
+
+### 新增功能
+
+- 🧠 **ClaudeCode 上下文多轮自动压缩** - 在 ClaudeCode 中实现 Kiro 反代上下文多轮自动压缩！超长上下文会话不丢失、不卡顿
+  - 实测大项目读取修改、深度分析、大量修改，全自动整合多轮上下文摘要
+  - 同一窗口会话上下文不丢失！
+  - ⚠️ **注意**: 仅支持 ClaudeCode
+- 🔌 **AugmentCode 插件 v3.0.0** - 插件同步更新，支持上下文压缩功能（需要程序版本 ≥ v2.3.2）
+
+## 🎉 V2.2.0 更新说明
 
 ### 新增功能
 
@@ -164,7 +175,7 @@ docker compose logs -f
 
 本项目可配合魔改版 Augment-BYOK 插件使用，实现在 Augment Code 中使用自定义 API 端点。
 
-> ⚠️ **V2.0.0 用户注意**: 更新到 V2.0.0 后，插件需要重新下载安装才能正常使用新功能！
+> ⚠️ **V2.3.0 用户注意**: 更新到 V2.3.0 后，插件需要更新到 v3.0.0 才能使用上下文压缩功能！
 
 👉 **使用教程**: [飞书文档](https://tcn1dv9putrz.feishu.cn/wiki/NfNEwWkGuiWhNJkHFdRcfXrPnn1)
 🔑 **访问密码**: `734&Q851`
