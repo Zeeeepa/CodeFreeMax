@@ -6,8 +6,6 @@
 
 🚀 将 Kiro、Antigravity、Warp、Orchids、Grok 等 IDE/服务转换为兼容 OpenAI / Claude / Augment Code 格式的 API 服务。
 
-> 公共授权码：`144bd7a0-6ca2-4b7e-ac1c-1a29afb50662`
-
 ## ✨ 功能特性
 
 ### 多渠道支持
